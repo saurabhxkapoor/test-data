@@ -17,7 +17,7 @@ public class HomePage {
     }
 
     public void navigateUrl(){
-        browser.get("https://wwww.realtor.com");
+        browser.get("https://www.realtor.com");
     }
 
     @FindBy(how= How.ID, using="for_sale")

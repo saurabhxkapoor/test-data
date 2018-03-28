@@ -16,6 +16,6 @@ public class SearchPage {
     }
 
 
-    @FindBy(how= How.ID, using="search-result-count")
+    @FindBy(how= How.CLASS_NAME, using="search-result-count")
     public WebElement spanHomeCount;
 }
